@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.24.4",
+    "chart.js": "^2.7.2",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.4",
     "gulp-concat": "^2.6.1",

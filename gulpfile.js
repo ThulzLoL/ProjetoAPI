@@ -16,7 +16,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('scripts', function() {
-    return gulp.src('./src/js/**/*.js')
+    return gulp.src(['./node_modules/chart.js/dist/Chart.min.js', './src/js/**/*.js'])
     .pipe(concat('scripts.js'))
     .pipe(gulp.dest('./dist/'));
 });

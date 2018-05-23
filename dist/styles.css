@@ -1,2 +1,168 @@
+html {
+  height: 100%;
+  max-width: 780px; }
+
 body {
-  margin: 0; }
+  color: white;
+  margin: 0;
+  height: 100%;
+  width: 100%; }
+
+.weather {
+  background-color: #00416a;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  border: 2px solid black; }
+  .weather .left {
+    border-right: 2px solid black;
+    width: 50%;
+    height: 100%; }
+    .weather .left .data {
+      text-align: center;
+      font-size: 3.5vh; }
+    .weather .left .data2 {
+      margin: 0;
+      text-align: center;
+      font-size: 11vh; }
+  .weather .right {
+    width: 50%;
+    height: 100%; }
+    .weather .right .top {
+      text-align: center;
+      display: inline-flex;
+      border-bottom: 2px solid black;
+      width: 100%;
+      height: 40%; }
+      .weather .right .top .Temperature {
+        font-size: 6vh;
+        width: 40%;
+        height: 100%; }
+      .weather .right .top .location {
+        font-size: 3vh;
+        padding-top: 1.2vh;
+        width: 60%;
+        height: 100%; }
+    .weather .right .bottom {
+      display: inline-flex;
+      width: 100%;
+      height: 60%; }
+      .weather .right .bottom .wind {
+        display: grid;
+        text-align: center;
+        width: 50%; }
+        .weather .right .bottom .wind .vento {
+          height: 100%;
+          font-size: 4vh; }
+        .weather .right .bottom .wind img {
+          height: 50%;
+          margin: auto; }
+      .weather .right .bottom .humidity {
+        display: grid;
+        text-align: center;
+        width: 50%; }
+        .weather .right .bottom .humidity .humImg {
+          margin: auto;
+          height: 50%; }
+        .weather .right .bottom .humidity .humNum {
+          height: 100%;
+          font-size: 4vh; }
+
+.dois {
+  border: 2px solid black;
+  background-color: teal;
+  width: 100%;
+  height: 20%; }
+  .dois .chart-container {
+    background-color: black;
+    margin: auto;
+    height: 20vh;
+    width: 100%; }
+  .dois .dropdown {
+    position: absolute;
+    top: 20.7vh;
+    left: 6vw; }
+  .dois .dropbtn {
+    background-color: #00416a;
+    color: white;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer; }
+  .dois .dropbtn:hover, .dois .dropbtn:focus {
+    background-color: #2980B9; }
+  .dois .dropdown-content {
+    display: none;
+    padding-left: 3px;
+    padding-right: 2px;
+    text-align: center;
+    position: absolute;
+    background-color: #00416a;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+    .dois .dropdown-content p {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+      padding: 7px; }
+
+.tres {
+  border: 2px solid black;
+  text-align: center;
+  display: inline-flex;
+  background-color: #00416a;
+  width: 100%;
+  height: 20%; }
+  .tres .variacao {
+    display: inline-flex;
+    width: 40%; }
+    .tres .variacao .arrow {
+      margin: auto;
+      height: 9vh; }
+    .tres .variacao .variacaoNum {
+      margin: auto;
+      font-size: 5vh; }
+  .tres .dolar {
+    margin: auto;
+    font-size: 13vh;
+    width: 60%; }
+  .tres .dropdown2 {
+    position: absolute;
+    top: 42vh;
+    left: 5vw; }
+    .tres .dropdown2 .dropbtn2 {
+      font-weight: bold;
+      font-size: 16px;
+      color: #dedede;
+      background-color: black;
+      border: none;
+      cursor: pointer; }
+    .tres .dropdown2 .dropbtn2:hover, .tres .dropdown2 .dropbtn2:focus {
+      background-color: #323232; }
+    .tres .dropdown2 .dropdown-content2 {
+      padding-right: 22px;
+      padding-left: 23px;
+      display: none;
+      text-align: center;
+      position: absolute;
+      background-color: black;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1; }
+      .tres .dropdown2 .dropdown-content2 p {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+        padding: 7px; }
+
+.quatro {
+  border: 2px solid black;
+  background-color: teal;
+  width: 100%;
+  height: 40%; }
+  .quatro .twitter-timeline {
+    width: 100vw !important;
+    height: 40vh !important; }
+
+.show {
+  display: block; }
